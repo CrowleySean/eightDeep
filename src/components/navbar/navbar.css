@@ -1,7 +1,13 @@
+/* colors 
+#ac90c3
+#9a83b1
+#8e81ad
+#24333a
+ */
 .nav {
     width: 100%;
-    height: 100px;
-    position: sticky;
+    height: 150px;
+    /* position: sticky; */
     top: 0;
     display: flex;
     align-items: center;
@@ -17,15 +23,17 @@
 }
 
 .eightdeep {
-    color: black;
-    font-size: 60px;
-    font-family: "Great Vibes", cursive;
+    height: 100%;
+}
+
+.logo {
+    height: 100%;
     cursor: pointer;
-    font-weight: bolder;
+    overflow: hidden;
 }
 
 .eightdeep :hover {
-    color: rgb(190, 121, 255);
+    color: #ac90c3;
 }
 
 .center {
@@ -35,12 +43,12 @@
 .socialIcons {
     font-size: 25px;
     margin-right: 10px;
-    color: black;
+    color: #24333a;
     cursor: pointer;
 }
 
 .right :hover {
-    color: rgb(190, 121, 255);
+    color: #ac90c3;
 }
 
 .navList {
@@ -56,11 +64,11 @@
     font-size: 20px;
     font-weight: bolder;
     cursor: pointer;
-    color: black;
+    color: #24333a;
 }
 
 .navList :hover {
-    color: rgb(190, 121, 255);
+    color: #ac90c3;
 }
 
 .sep {

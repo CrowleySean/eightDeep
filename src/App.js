@@ -1,16 +1,17 @@
-import Navbar from "./navbar/Navbar";
+import Navbar from "./components/navbar/Navbar";
+import Sidebar from "./components/sidebar/Sidebar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Content from "./components/content/Content";
+import Homepage from "./pages/homepage/Homepage";
 
 function App() {
-  // const appStyle = {
-  //   margin: 0,
-  //   padding: 0,
-  //   backgroundColor: 'black', // Set your desired background color
-  //   minHeight: '100vh', // Ensure the background color covers the entire viewport
-  // };
   return (
-    <div>
+    <Router>
       <Navbar/>
-    </div>
+      <Routes>
+        <Route path="/" Component={Homepage} />
+      </Routes>
+    </Router>
   );
 }
 
